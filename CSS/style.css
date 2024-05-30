@@ -1,0 +1,107 @@
+
+/*  Encabezado y Footer  */
+.d-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.d-item{
+    height: 500px;
+}
+
+#menu li>a {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu div>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/*----------------- Pagina principal --------------*/
+
+@media (min-width: 500px) {
+
+    .Cuadro-padre{
+        text-align: center;
+        
+        display: flex;
+    }
+    .secreto2{
+        display: none;
+    }
+
+    .cuadro-hijo{
+        width: 600px;
+    }
+    
+}
+@media (max-width: 500px) {
+    #contenido article>p {
+      font-size: 15px;
+      
+    }
+    .secreto1{
+        display: none;
+    }
+    .Cuadro-padre{
+        text-align: center;  
+    }
+  }
+
+/*----------------- Imagenes --------------*/
+
+
+.imagen1{
+    height: 500px;
+    min-width: 400px; 
+    width: 560px;
+}
+
+.img-vision{
+    height: 300px; 
+    width: 400px;
+    min-width: 250px;
+}
+
+.img-valores{
+    height: 300px;
+    width: 300px;
+    min-width: 200px;
+}
+
+.img-mision{
+    height: 300px;
+    width: 450px;
+    min-width: 300px;
+}
+
+#contenido div>img{
+
+}
+
+
+/*-------------------------------- Texto------------------------ */
+
+#contenido article>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+/*-------------------------------- Movimiento ------------------------ */
+
+.animacion {
+    animation: Mover 2s;
+}
+
+@keyframes Mover{
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
